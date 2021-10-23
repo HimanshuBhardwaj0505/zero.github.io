@@ -1,0 +1,188 @@
+body {
+    background-color: #121212 !important;
+}
+
+.main-game {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    width: 300px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.winner {
+    display: none;
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    width: 400px;
+    height: 200px;
+    background: rgba(73, 73, 73, 0.43);
+    border-radius: 10px;
+}
+
+.game-set {
+    display: grid;
+    grid-template-columns: 100px 100px 100px;
+}
+
+#btn-one {
+    height: 100px;
+    width: 100px;
+    border-bottom: 1px solid whitesmoke;
+    border-right: 1px solid whitesmoke;
+}
+
+#btn-two {
+    height: 100px;
+    width: 100px;
+    border-bottom: 1px solid whitesmoke;
+    border-right: 1px solid whitesmoke;
+}
+
+#btn-three {
+    height: 100px;
+    width: 100px;
+    border-bottom: 1px solid whitesmoke;
+}
+
+#btn-four {
+    height: 100px;
+    width: 100px;
+    border-bottom: 1px solid whitesmoke;
+    border-right: 1px solid whitesmoke;
+}
+
+#btn-five {
+    height: 100px;
+    width: 100px;
+    border-bottom: 1px solid whitesmoke;
+    border-right: 1px solid whitesmoke;
+}
+
+#btn-six {
+    height: 100px;
+    width: 100px;
+    border-bottom: 1px solid whitesmoke;
+}
+
+#btn-seven {
+    height: 100px;
+    width: 100px;
+    border-right: 1px solid whitesmoke;
+}
+
+#btn-eight {
+    height: 100px;
+    width: 100px;
+    border-right: 1px solid whitesmoke;
+}
+
+#btn-nine {
+    height: 100px;
+    width: 100px;
+}
+
+button {
+    list-style: none;
+    background-color: transparent !important;
+}
+
+#xone {
+    opacity: 0;
+    transition: 1s ease-in-out;
+}
+
+#yone {
+    opacity: 0;
+    transition: 1s ease-in-out;
+}
+
+#xtwo {
+    opacity: 0;
+    transition: 1s ease-in-out;
+}
+
+#ytwo {
+    opacity: 0;
+    transition: 1s ease-in-out;
+}
+
+#xthree {
+    opacity: 0;
+    transition: 1s ease-in-out;
+}
+
+#ythree {
+    opacity: 0;
+    transition: 1s ease-in-out;
+}
+
+#xfour {
+    opacity: 0;
+    transition: 1s ease-in-out;
+}
+
+#yfour {
+    opacity: 0;
+    transition: 1s ease-in-out;
+}
+
+#xfive {
+    opacity: 0;
+    transition: 1s ease-in-out;
+}
+
+#yfive {
+    opacity: 0;
+    transition: 1s ease-in-out;
+}
+
+#xsix {
+    opacity: 0;
+    transition: 1s ease-in-out;
+}
+
+#ysix {
+    opacity: 0;
+    transition: 1s ease-in-out;
+}
+
+#xseven {
+    opacity: 0;
+    transition: 1s ease-in-out;
+}
+
+#yseven {
+    opacity: 0;
+    transition: 1s ease-in-out;
+}
+
+#xeight {
+    opacity: 0;
+    transition: 1s ease-in-out;
+}
+
+#yeight {
+    opacity: 0;
+    transition: 1s ease-in-out;
+}
+
+#xnine {
+    opacity: 0;
+    transition: 1s ease-in-out;
+}
+
+#ynine {
+    opacity: 0;
+    transition: 1s ease-in-out;
+}
